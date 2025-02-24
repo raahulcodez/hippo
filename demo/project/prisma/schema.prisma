@@ -1,0 +1,24 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model ImageUpload {
+  id             String           @id @default(uuid())
+  filename       String
+  uploadDate     DateTime         @default(now())
+  detectedObjects DetectedObject[]
+}
+
+model DetectedObject {
+  id            String      @id @default(uuid())
+  class         String
+  confidence    Float
+  boundingBox   Json        // Stores the bbox coordinates
+  imageUpload   ImageUpload @relation(fields: [imageUploadId], references: [id])
+  imageUploadId String
+}

@@ -1,0 +1,30 @@
+{
+    "id": "chatcmpl-f7574a3e-0950-454f-a190-367e79f46cae",
+    "object": "chat.completion",
+    "created": 1740391098,
+    "model": "llama-3.2-90b-vision-preview",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": "Here are the objects in the image:\n\n* **Vegetables:**\n\t+ Broccoli\n\t+ Kale\n\t+ Cabbage\n\t+ Carrots\n\t+ Lettuce\n* **Fruits:**\n\t+ Apples\n\t+ Bananas\n\t+ Pears\n\t+ Watermelon\n\t+ Grapes\n* **Proteins:**\n\t+ Fish (two different types)\n\t+ Chicken wings\n\t+ Pork meat\n* **Nuts:**\n\t+ Walnuts\n\t+ Almonds\n\t+ Hazelnuts\n\t+ Pistachios\n\t+ Peanuts\n* **Miscellaneous:**\n\t+ Red chilies\n\t+ Potatoes\n\t+ Garlic\n\t+ Ginger\n\t+ White mushrooms\n\nBased on the detected ingredients, here are some recipe suggestions:\n\n**Vegetarian Soup:**\n\n* Use the broccoli, kale, cabbage, and carrots for a hearty and nutritious soup. Heat a tablespoon of olive oil in a large pan and saut\u00e9 the vegetables until tender. Add four cups of vegetable broth, salt, and pepper to taste, and simmer for 20 minutes. Serve hot with a side of crusty bread.\n**Roasted Fish with Lemon and Garlic:**\n\n* Use the two types of fish and season them with salt, pepper, and paprika. Drizzle olive oil over a piece of aluminum foil and place the fish on it. Squeeze fresh lemon juice and sprinkle minced garlic on top, folding the foil to create packets. Bake at 400\u00b0F (200\u00b0C) for 10-12 minutes, and serve hot with roasted vegetables.\n**Chicken Wing Stir-Fry:**\n\n* Use the chicken wings and cut them into bite-sized pieces. In a wok or large pan, add a tablespoon of sesame oil and stir-fry the chicken until cooked through. Add sliced bell peppers, green onions, and a cup of your favorite stir-fry sauce. Stir-fry until the sauce thickens, then serve over rice or noodles.\n**Pork Stir- Fry:**\n\n* Use the pork meat and slice it into strips. In a wok or large pan, add a table"
+            },
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "queue_time": 0.340508998,
+        "prompt_tokens": 157,
+        "prompt_time": 0.024534625,
+        "completion_tokens": 445,
+        "completion_time": 1.66656921,
+        "total_tokens": 602,
+        "total_time": 1.691103835
+    },
+    "system_fingerprint": "fp_9c2a937c92",
+    "x_groq": {
+        "id": "req_01jmvp98raef8sy9c4gfps5yd8"
+    }
+}
